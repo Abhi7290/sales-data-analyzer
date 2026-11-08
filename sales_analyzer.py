@@ -7,7 +7,7 @@ from datetime import datetime
 from pathlib import Path
 
 
-DEFAULT_FILE = Path(__file__).parent / "data" / "sample_sales.csv"
+DEFAULT_FILE = Path(__file__).parent / "sample_sales.csv"
 
 
 def load_sales(file_path):
